@@ -23,15 +23,21 @@ BemVindo()**/
 
 // CalcularPercentual(20,11)
 
-// function Media(teorica,pratica){
-//     let total = 10;
+//  function Media(teorica,pratica){
+//      let total = 2;
 
-//     let calcularMedia = ((2 * teorica) + pratica) / total;
+//      let calcularMedia = ((2 * teorica) + pratica) / total;
 
-//     return console.log("A média do alino é " + calcularMedia + " .")
-// //    return alert("A média do alino é " + calcularMedia + " .")
+//      return console.log("A média do alino é " + calcularMedia + " .")
+// // //    return alert("A média do alino é " + calcularMedia + " .")
 
-// }
+//  }
 
-// Media(7,8)
+//  Media(10,10)
 
+function catraca(hora){
+    let horario;
+
+    
+
+}
