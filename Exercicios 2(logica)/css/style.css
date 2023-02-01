@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5b5b5b;
+    width: 100vw;
+    height: 100vh;
+}
+ #display{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 442px;
+    border-radius: 10px;
+    background-color: #fff;
+} 
+#display h1{
+    width: 245px;
+    height: 218px;
+    line-height: 56px;
+    padding-top: 20px;
+    padding-left: 16px;
+    font-size: 46.5px;
+}
+#display h1 span{
+    
+    color: #ffb431;
+}
+#display .card_img{
+    display: flex;
+    width: 258px;
+    height: 258px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+main .card_palpites{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+main .card_palpites button{
+    background-color: #fff;
+    width: 60px;
+    height: 40px;
+    margin-top: 26px;
+    cursor: pointer;
+}
+main .card_palpites input{
+    display: flex;
+    width: 45px;
+    height: 40px;
+    border: 2px solid #DE5540;
+    border-radius: 5px;
+}
+main .card_palpites p{
+    width: 90px;
+    height: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px; 
+    padding-left: 2px;   
+}
+main .card_palpites span{
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFB431;
+}
