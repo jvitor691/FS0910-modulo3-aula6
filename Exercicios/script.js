@@ -25,44 +25,17 @@
     
 }
 
- function Media(teorica,pratica){
-     let calcularMedia = (((2 * teorica) + pratica) / 3).toFixed(1);
+// function Media(teorica,pratica){
+//     let total = 10;
 
-     return document.getElementById("tela").innerHTML =
-     "<h3>A média do aluno é " + calcularMedia + " .</h3>"
+//     let calcularMedia = ((2 * teorica) + pratica) / total;
+
+//     return console.log("A média do alino é " + calcularMedia + " .")
+// //    return alert("A média do alino é " + calcularMedia + " .")
+
+// }
+
+// Media(7,8)
+
+
 }
-
- let manha = 0;
- let tarde = 0;
- let noite = 0; 
- function estacionamento(horario){
-     let hora = horario.slice(0,2);
-     if(hora > 4 && hora <= 11){
-         manha += 1;
-         return;
-     }
-     if(hora > 11 && hora <= 17){
-        tarde += 1;
-        return;
-    }
-     if((hora > 17 && hora <= 23) || (hora >= 00 && hora <= 4)){
-        noite += 1;
-         return;
-     }
-}
-
-estacionamento("00:30");
-estacionamento("19:30");
-estacionamento("18:30");
-estacionamento("14:30");
-estacionamento("08:30");
-estacionamento("20:30");
-estacionamento("22:30");
-estacionamento("07:30");
-estacionamento("03:30");
-estacionamento("04:30");
-
-document.write("Acessos da manha: " + manha + "<br>");
-document.write("Acessos da tarde: " + tarde + "<br>");
-document.write("Acessos da noite: " + noite + "<br>");
-
