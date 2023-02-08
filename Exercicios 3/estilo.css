@@ -1,0 +1,24 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-central{
+    margin: 0 150px;
+}
+section{
+    margin: 60px;
+    padding: 70px;
+}
+.d-flex .btn{
+    margin: 10px;
+}
+.pb-14 .container .row .col-md-6{
+    border-top: solid 0.5px grey;
+    border-bottom: solid 0.5px grey;
+    padding: 30px;
+}
+
+
