@@ -20,5 +20,8 @@ section{
     border-bottom: solid 0.5px grey;
     padding: 30px;
 }
-
+.col .card .col-auto .icon{
+    padding: 10px;
+    margin-left: 10px;
+}
 
